@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <title>Experiment 3</title>
+    <meta charset="UTF-8">
+    <style>
+        .html,body {
+            height : 100%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; }
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center; }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            height: 50px;
+            }
+            nav a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 5px 16px;
+                text-decoration: none; }
+            nav a:hover {
+                background-color: #ddd;
+                color: black;
+                height: 50px;
+                padding: 14px 16px; }
+        main {
+            flex: 1; /* ดันให้ footer อยลงไปล่าง */
+            display: flex;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        section {
+            flex: 1;
+        padding: 10px; }
+        article {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px; }
+        aside {
+            background-color: #f4f4f4;
+            padding: 15px;
+            float: right;
+            width: 30%;
+            margin-left: 20px;
+            box-sizing: border-box; }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            clear: both; }
+        
+        </style> 
+</head>
+<body>
+    <header>
+        <h1>เว็บไซต์ของฉัน</h1>
+        <p>ยินดีต้อนรับสู่เว็บไซต์ตัวอย่าง HTML5</p>
+    </header>
+
+    <nav>
+        <a href="#">หน้าหลัก</a>
+        <a href="#">เกี่ยวกับ</a>
+        <a href="#">ติดต่อ</a>
+        <a href="#">แกลเลอรี</a>
+    </nav>
+    <main>
+        <section>
+            <h2>เนื้อหาหลักของเว็บเพจ</h2>
+            <article>
+                <h3>บทความที่ 1: HTML5 คืออะไร?</h3>
+                <p>HTML5 คือเวอร์ชันล่าสุดของภาษา HTML ที่มาพร้อมคุณสมบัติใหม่มากมาย เช่น การรองรับมัลติมีเดีย การจัดเก็บ้อมูล และแท็กเชิงความหมาย</p>
+            </article>
+            <article>
+                <h3>บทความที่ 2: ประโยชน์ของ Semantic Tags</h3>
+                <p>การใช้ Semantic Tags เช่น header, nav, section, article, footer, ทำให้โค้ด HTML มีโครงสร้างที่ชัดเจนและอ่านง่ายขึ้น ซึ่งเป็นประโยชน์ต่อ SEO และการเข้าถึง</p>
+            </article>
+        </section>
+        <section>
+            <h2>ประวัติส่วนตัว</h2>
+            <article>
+                <h3>ประวัติการศึกษา</h3>
+                <p>ปัจจุบันศึกษาที่สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</p>
+            </article>
+            <article>
+                <h3>yufi5yruihpo6t</h3>
+                <p>gufi5t7ryihboyir8467ed5g-97yf84</p>
+            </article>
+        </section>
+        <aside>
+            <h3>ข้อมูลเพิ่มเติม</h3>
+            <p>นี่คือแถบด้านข้างสำหรับข้อมูลที่เกี่ยวข้อง</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 เว็บไซต์ตัวอย่าง HTML5. สงวนลิขสิทธิ์.</p>
+    </footer>
+</body>
+</html>
